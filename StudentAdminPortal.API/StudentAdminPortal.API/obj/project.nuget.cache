@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3sGmS8/Ayl5NYicwSVz4JAmbjXNX72u7zpxKyX0dBe/t4K44rqShBMNNWSVURw0s3Bak0jiZo0vDQnty/R9YkQ==",
+  "success": true,
+  "projectFilePath": "D:\\repos\\Udemy\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jcabili\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
