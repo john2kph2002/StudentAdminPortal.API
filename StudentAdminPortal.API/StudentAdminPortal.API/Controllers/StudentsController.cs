@@ -114,16 +114,32 @@ namespace StudentAdminPortal.API.Controllers
         [Route("[Controller]/{studentId:guid}/upload-image")]
         public async Task<IActionResult> UploadImage([FromRoute] Guid studentId, IFormFile profileImage)
         {
-            if(await studentRepository.Exists(studentId))
+            var validExtension = new List<string>
             {
-                var fileName = Guid.NewGuid() + Path.GetExtension(profileImage.FileName);
-                var fileImagePath = await imageRepository.Upload(profileImage, fileName);
-                if(await studentRepository.UpdateProfileImage(studentId, fileImagePath))
+                ".jpeg",
+                ".png",
+                ".gif",
+                ".jpg"
+            };
+
+            if(profileImage != null && profileImage.Length > 0)
+            {
+                var extension = Path.GetExtension(profileImage.FileName);
+                if(validExtension.Contains(extension))
                 {
-                    return Ok(fileImagePath);
+                    if (await studentRepository.Exists(studentId))
+                    {
+                        var fileName = Guid.NewGuid() + Path.GetExtension(profileImage.FileName);
+                        var fileImagePath = await imageRepository.Upload(profileImage, fileName);
+                        if (await studentRepository.UpdateProfileImage(studentId, fileImagePath))
+                        {
+                            return Ok(fileImagePath);
+                        }
+                        return StatusCode(StatusCodes.Status500InternalServerError, "Error uploding image");
+                    }
                 }
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error uploding image");
-            }
+                return BadRequest("This is not a valid Image Format");
+            }           
             return NotFound();
         }
     }

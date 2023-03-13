@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nM6OMEKMX6yrlhzFbgv4O7Dc+9mLmAkmqnlpdZ3plTg/UoOr1SdfZRvKw0tFbZI0sHFq97HDQx12x3C6Ez4Fug==",
+  "dgSpecHash": "HA8Osmbn29YooBXiLres1lyUO0afhk6MIwSlCdTOpFwXU+IQHGOJKxBq5T+iGOZbubsYzutkLcvJHsBwWMHYrA==",
   "success": true,
   "projectFilePath": "D:\\repos\\Udemy\\StudentAdminPortal\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API\\StudentAdminPortal.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcabili\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\jcabili\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\jcabili\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\jcabili\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jcabili\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jcabili\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
